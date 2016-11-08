@@ -1,0 +1,1306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1896B3321C15361E00F7E978 /* UmengStatistical.m in Sources */ = {isa = PBXBuildFile; fileRef = 1896B3311C15361E00F7E978 /* UmengStatistical.m */; };
+		31AE5D021B4E46F0009CFAB0 /* NDSDK.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 31AE5D011B4E46F0009CFAB0 /* NDSDK.h */; };
+		31AE5D041B4E46F0009CFAB0 /* NDSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 31AE5D031B4E46F0009CFAB0 /* NDSDK.m */; };
+		31AE5D0A1B4E46F0009CFAB0 /* libNDSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 31AE5CFE1B4E46F0009CFAB0 /* libNDSDK.a */; };
+		5F38E41A1C07319A004F1B17 /* ALYUploadPic.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F38E32A1C07319A004F1B17 /* ALYUploadPic.m */; };
+		5F38E41C1C07319A004F1B17 /* GPUImageFiveInputFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F38E3301C07319A004F1B17 /* GPUImageFiveInputFilter.m */; };
+		5F38E41D1C07319A004F1B17 /* GPUImageFourInputFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F38E3321C07319A004F1B17 /* GPUImageFourInputFilter.m */; };
+		5F38E41E1C07319A004F1B17 /* GPUImageSixInputFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F38E3341C07319A004F1B17 /* GPUImageSixInputFilter.m */; };
+		5F38E41F1C07319A004F1B17 /* NDDanyaFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F38E3361C07319A004F1B17 /* NDDanyaFilter.m */; };
+		5F38E4201C07319A004F1B17 /* NDDengguangFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F38E3381C07319A004F1B17 /* NDDengguangFilter.m */; };
+		5F38E4211C07319A004F1B17 /* NDDuibiFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F38E33A1C07319A004F1B17 /* NDDuibiFilter.m */; };
+		5F38E4221C07319A004F1B17 /* NDFeicuilvFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F38E33C1C07319A004F1B17 /* NDFeicuilvFilter.m */; };
+		5F38E4231C07319A004F1B17 /* NDFuguFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F38E33E1C07319A004F1B17 /* NDFuguFilter.m */; };
+		5F38E4241C07319A004F1B17 /* NDGaoliangFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F38E3401C07319A004F1B17 /* NDGaoliangFilter.m */; };
+		5F38E4251C07319A004F1B17 /* NDHeibaiFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F38E3421C07319A004F1B17 /* NDHeibaiFilter.m */; };
+		5F38E4261C07319A004F1B17 /* NDJinseFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F38E3451C07319A004F1B17 /* NDJinseFilter.m */; };
+		5F38E4271C07319A004F1B17 /* NDLengSeFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F38E3471C07319A004F1B17 /* NDLengSeFilter.m */; };
+		5F38E4281C07319A004F1B17 /* NDMihuangFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F38E3491C07319A004F1B17 /* NDMihuangFilter.m */; };
+		5F38E4291C07319A004F1B17 /* NDNaixiseFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F38E34B1C07319A004F1B17 /* NDNaixiseFilter.m */; };
+		5F38E42A1C07319A004F1B17 /* NDRouheFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F38E34D1C07319A004F1B17 /* NDRouheFilter.m */; };
+		5F38E42B1C07319A004F1B17 /* NDTongseFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F38E34F1C07319A004F1B17 /* NDTongseFilter.m */; };
+		5F38E42C1C07319A004F1B17 /* NDXiandaiFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F38E3511C07319A004F1B17 /* NDXiandaiFilter.m */; };
+		5F38E42D1C07319A004F1B17 /* NDXuanliFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F38E3531C07319A004F1B17 /* NDXuanliFilter.m */; };
+		5F38E42E1C07319A004F1B17 /* NDYanyangFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F38E3551C07319A004F1B17 /* NDYanyangFilter.m */; };
+		5F38E42F1C07319A004F1B17 /* NDZengqiangFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F38E3571C07319A004F1B17 /* NDZengqiangFilter.m */; };
+		5F38E4381C07319A004F1B17 /* NDCameraUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F38E3701C07319A004F1B17 /* NDCameraUtils.m */; };
+		5F38E4391C07319A004F1B17 /* NSDate+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F38E3741C07319A004F1B17 /* NSDate+Addition.m */; };
+		5F38E43A1C07319A004F1B17 /* NSDate+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F38E3761C07319A004F1B17 /* NSDate+Utilities.m */; };
+		5F38E43B1C07319A004F1B17 /* NSDateFormatter+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F38E3781C07319A004F1B17 /* NSDateFormatter+Category.m */; };
+		5F38E43C1C07319A004F1B17 /* NDBaseService.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F38E37C1C07319A004F1B17 /* NDBaseService.m */; };
+		5F38E43D1C07319A004F1B17 /* NDGroupCondition.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F38E3811C07319A004F1B17 /* NDGroupCondition.m */; };
+		5F38E43E1C07319A004F1B17 /* NDLimitCondition.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F38E3831C07319A004F1B17 /* NDLimitCondition.m */; };
+		5F38E43F1C07319A004F1B17 /* NDOrderCondition.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F38E3851C07319A004F1B17 /* NDOrderCondition.m */; };
+		5F38E4401C07319A004F1B17 /* NDQueryCondition.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F38E3871C07319A004F1B17 /* NDQueryCondition.m */; };
+		5F38E4411C07319A004F1B17 /* NDStringQueryCondition.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F38E3891C07319A004F1B17 /* NDStringQueryCondition.m */; };
+		5F38E4421C07319A004F1B17 /* NDBool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F38E38F1C07319A004F1B17 /* NDBool.m */; };
+		5F38E4431C07319A004F1B17 /* NDDouble.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F38E3911C07319A004F1B17 /* NDDouble.m */; };
+		5F38E4441C07319A004F1B17 /* NDInteger.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F38E3931C07319A004F1B17 /* NDInteger.m */; };
+		5F38E4451C07319A004F1B17 /* NDLong.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F38E3951C07319A004F1B17 /* NDLong.m */; };
+		5F38E4461C07319A004F1B17 /* NDDataBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F38E3981C07319A004F1B17 /* NDDataBaseModel.m */; };
+		5F38E4471C07319A004F1B17 /* NDTableManageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F38E39A1C07319A004F1B17 /* NDTableManageModel.m */; };
+		5F38E4481C07319A004F1B17 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F38E39C1C07319A004F1B17 /* UserModel.m */; };
+		5F38E4491C07319A004F1B17 /* UserService.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F38E39F1C07319A004F1B17 /* UserService.m */; };
+		5F38E44A1C07319A004F1B17 /* FMDatabase+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F38E3A21C07319A004F1B17 /* FMDatabase+Category.m */; };
+		5F38E44B1C07319A004F1B17 /* FMDatabaseQueue+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F38E3A41C07319A004F1B17 /* FMDatabaseQueue+Category.m */; };
+		5F38E44C1C07319A004F1B17 /* NDCommonFunc.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F38E3A61C07319A004F1B17 /* NDCommonFunc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5F38E44D1C07319A004F1B17 /* NDDatabaseUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F38E3A81C07319A004F1B17 /* NDDatabaseUtils.m */; };
+		5F38E44E1C07319A004F1B17 /* NDDataFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F38E3AA1C07319A004F1B17 /* NDDataFormat.m */; };
+		5F38E44F1C07319A004F1B17 /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F38E3AB1C07319A004F1B17 /* sqlite3.c */; };
+		5F38E4521C07319A004F1B17 /* AFJSONResponseSerializer+Categary.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F38E3B51C07319A004F1B17 /* AFJSONResponseSerializer+Categary.m */; };
+		5F38E4531C07319A004F1B17 /* NDTDHTTPCallbackData.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F38E3B81C07319A004F1B17 /* NDTDHTTPCallbackData.m */; };
+		5F38E4541C07319A004F1B17 /* NDTDHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F38E3BB1C07319A004F1B17 /* NDTDHTTPRequest.m */; };
+		5F38E4551C07319A004F1B17 /* NDTDHTTPRequestData.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F38E3BD1C07319A004F1B17 /* NDTDHTTPRequestData.m */; };
+		5F38E4561C07319A004F1B17 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F38E3C01C07319A004F1B17 /* AsyncSocket.m */; };
+		5F38E4571C07319A004F1B17 /* NDTDSocketCallbackData.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F38E3C21C07319A004F1B17 /* NDTDSocketCallbackData.m */; };
+		5F38E4581C07319A004F1B17 /* NDTDSocketListener.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F38E3C61C07319A004F1B17 /* NDTDSocketListener.m */; };
+		5F38E4591C07319A004F1B17 /* NDTDSocketRequestData.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F38E3C81C07319A004F1B17 /* NDTDSocketRequestData.m */; };
+		5F38E45A1C07319A004F1B17 /* NDTDLoadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F38E3CB1C07319A004F1B17 /* NDTDLoadView.m */; };
+		5F38E45B1C07319A004F1B17 /* NDTDNetworkDataCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F38E3CD1C07319A004F1B17 /* NDTDNetworkDataCache.m */; };
+		5F38E45C1C07319A004F1B17 /* NDTDNetworkMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F38E3CF1C07319A004F1B17 /* NDTDNetworkMonitor.m */; };
+		5F38E45D1C07319A004F1B17 /* NDTDFileUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F38E3D21C07319A004F1B17 /* NDTDFileUtility.m */; };
+		5F38E45E1C07319A004F1B17 /* NDAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F38E3D61C07319A004F1B17 /* NDAsset.m */; };
+		5F38E45F1C07319A004F1B17 /* NDAssetsGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F38E3D81C07319A004F1B17 /* NDAssetsGroup.m */; };
+		5F38E4601C07319A004F1B17 /* NDAssetsLibraryRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F38E3DA1C07319A004F1B17 /* NDAssetsLibraryRequest.m */; };
+		5F38E4611C07319A004F1B17 /* UIColor+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F38E3DE1C07319A004F1B17 /* UIColor+Category.m */; };
+		5F38E4621C07319A004F1B17 /* UIColor+Gradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F38E3E01C07319A004F1B17 /* UIColor+Gradient.m */; };
+		5F38E4631C07319A004F1B17 /* UIColor+Modify.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F38E3E21C07319A004F1B17 /* UIColor+Modify.m */; };
+		5F38E4641C07319A004F1B17 /* UIColor+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F38E3E41C07319A004F1B17 /* UIColor+Random.m */; };
+		5F38E4651C07319A004F1B17 /* UMAccountInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F38E3E91C07319A004F1B17 /* UMAccountInfo.m */; };
+		5F38E4661C07319A004F1B17 /* UMLoginAndShare.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F38E3EB1C07319A004F1B17 /* UMLoginAndShare.m */; };
+		5F38E4671C07319A004F1B17 /* UMShareData.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F38E3ED1C07319A004F1B17 /* UMShareData.m */; };
+		5F38E4681C07319A004F1B17 /* amrFileCodec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5F38E3F31C07319A004F1B17 /* amrFileCodec.mm */; };
+		5F38E4691C07319A004F1B17 /* wav.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5F38E3F51C07319A004F1B17 /* wav.mm */; };
+		5F38E46B1C07319A004F1B17 /* libopencore-amrnb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F38E3FB1C07319A004F1B17 /* libopencore-amrnb.a */; };
+		5F38E46C1C07319A004F1B17 /* libopencore-amrwb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F38E3FF1C07319A004F1B17 /* libopencore-amrwb.a */; };
+		5F38E46D1C07319A004F1B17 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F38E4031C07319A004F1B17 /* GTMBase64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5F38E46E1C07319A004F1B17 /* NDJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F38E4071C07319A004F1B17 /* NDJson.m */; };
+		5F38E46F1C07319A004F1B17 /* NSString+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F38E40A1C07319A004F1B17 /* NSString+Category.m */; };
+		5F38E4701C07319A004F1B17 /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F38E40C1C07319A004F1B17 /* RegexKitLite.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5F38E4711C07319A004F1B17 /* NSData+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F38E40F1C07319A004F1B17 /* NSData+Category.m */; };
+		5F38E4731C07319A004F1B17 /* NDKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F38E4161C07319A004F1B17 /* NDKeychain.m */; };
+		5F38E4741C07319A004F1B17 /* NDBaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F38E4191C07319A004F1B17 /* NDBaseViewModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		31AE5D0B1B4E46F0009CFAB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31AE5CF61B4E46F0009CFAB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31AE5CFD1B4E46F0009CFAB0;
+			remoteInfo = NDSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		31AE5CFC1B4E46F0009CFAB0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				31AE5D021B4E46F0009CFAB0 /* NDSDK.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1896B3301C15361E00F7E978 /* UmengStatistical.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UmengStatistical.h; sourceTree = "<group>"; };
+		1896B3311C15361E00F7E978 /* UmengStatistical.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UmengStatistical.m; sourceTree = "<group>"; };
+		189F12961BB3D686009E6A0B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		189F12971BB3D686009E6A0B /* Pods.release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		3185A2071B55005900D0494B /* NDSDK-PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NDSDK-PrefixHeader.pch"; sourceTree = "<group>"; };
+		31AE5CFE1B4E46F0009CFAB0 /* libNDSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNDSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		31AE5D011B4E46F0009CFAB0 /* NDSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NDSDK.h; sourceTree = "<group>"; };
+		31AE5D031B4E46F0009CFAB0 /* NDSDK.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NDSDK.m; sourceTree = "<group>"; };
+		31AE5D091B4E46F0009CFAB0 /* NDSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NDSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31AE5D0E1B4E46F0009CFAB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F38E3291C07319A004F1B17 /* ALYUploadPic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALYUploadPic.h; sourceTree = "<group>"; };
+		5F38E32A1C07319A004F1B17 /* ALYUploadPic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALYUploadPic.m; sourceTree = "<group>"; };
+		5F38E32F1C07319A004F1B17 /* GPUImageFiveInputFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImageFiveInputFilter.h; sourceTree = "<group>"; };
+		5F38E3301C07319A004F1B17 /* GPUImageFiveInputFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageFiveInputFilter.m; sourceTree = "<group>"; };
+		5F38E3311C07319A004F1B17 /* GPUImageFourInputFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImageFourInputFilter.h; sourceTree = "<group>"; };
+		5F38E3321C07319A004F1B17 /* GPUImageFourInputFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageFourInputFilter.m; sourceTree = "<group>"; };
+		5F38E3331C07319A004F1B17 /* GPUImageSixInputFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImageSixInputFilter.h; sourceTree = "<group>"; };
+		5F38E3341C07319A004F1B17 /* GPUImageSixInputFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageSixInputFilter.m; sourceTree = "<group>"; };
+		5F38E3351C07319A004F1B17 /* NDDanyaFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDDanyaFilter.h; sourceTree = "<group>"; };
+		5F38E3361C07319A004F1B17 /* NDDanyaFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDDanyaFilter.m; sourceTree = "<group>"; };
+		5F38E3371C07319A004F1B17 /* NDDengguangFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDDengguangFilter.h; sourceTree = "<group>"; };
+		5F38E3381C07319A004F1B17 /* NDDengguangFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDDengguangFilter.m; sourceTree = "<group>"; };
+		5F38E3391C07319A004F1B17 /* NDDuibiFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDDuibiFilter.h; sourceTree = "<group>"; };
+		5F38E33A1C07319A004F1B17 /* NDDuibiFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDDuibiFilter.m; sourceTree = "<group>"; };
+		5F38E33B1C07319A004F1B17 /* NDFeicuilvFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDFeicuilvFilter.h; sourceTree = "<group>"; };
+		5F38E33C1C07319A004F1B17 /* NDFeicuilvFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDFeicuilvFilter.m; sourceTree = "<group>"; };
+		5F38E33D1C07319A004F1B17 /* NDFuguFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDFuguFilter.h; sourceTree = "<group>"; };
+		5F38E33E1C07319A004F1B17 /* NDFuguFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDFuguFilter.m; sourceTree = "<group>"; };
+		5F38E33F1C07319A004F1B17 /* NDGaoliangFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDGaoliangFilter.h; sourceTree = "<group>"; };
+		5F38E3401C07319A004F1B17 /* NDGaoliangFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDGaoliangFilter.m; sourceTree = "<group>"; };
+		5F38E3411C07319A004F1B17 /* NDHeibaiFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDHeibaiFilter.h; sourceTree = "<group>"; };
+		5F38E3421C07319A004F1B17 /* NDHeibaiFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDHeibaiFilter.m; sourceTree = "<group>"; };
+		5F38E3431C07319A004F1B17 /* NDImageFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDImageFilter.h; sourceTree = "<group>"; };
+		5F38E3441C07319A004F1B17 /* NDJinseFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDJinseFilter.h; sourceTree = "<group>"; };
+		5F38E3451C07319A004F1B17 /* NDJinseFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDJinseFilter.m; sourceTree = "<group>"; };
+		5F38E3461C07319A004F1B17 /* NDLengSeFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDLengSeFilter.h; sourceTree = "<group>"; };
+		5F38E3471C07319A004F1B17 /* NDLengSeFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDLengSeFilter.m; sourceTree = "<group>"; };
+		5F38E3481C07319A004F1B17 /* NDMihuangFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDMihuangFilter.h; sourceTree = "<group>"; };
+		5F38E3491C07319A004F1B17 /* NDMihuangFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDMihuangFilter.m; sourceTree = "<group>"; };
+		5F38E34A1C07319A004F1B17 /* NDNaixiseFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDNaixiseFilter.h; sourceTree = "<group>"; };
+		5F38E34B1C07319A004F1B17 /* NDNaixiseFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDNaixiseFilter.m; sourceTree = "<group>"; };
+		5F38E34C1C07319A004F1B17 /* NDRouheFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDRouheFilter.h; sourceTree = "<group>"; };
+		5F38E34D1C07319A004F1B17 /* NDRouheFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDRouheFilter.m; sourceTree = "<group>"; };
+		5F38E34E1C07319A004F1B17 /* NDTongseFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDTongseFilter.h; sourceTree = "<group>"; };
+		5F38E34F1C07319A004F1B17 /* NDTongseFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDTongseFilter.m; sourceTree = "<group>"; };
+		5F38E3501C07319A004F1B17 /* NDXiandaiFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDXiandaiFilter.h; sourceTree = "<group>"; };
+		5F38E3511C07319A004F1B17 /* NDXiandaiFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDXiandaiFilter.m; sourceTree = "<group>"; };
+		5F38E3521C07319A004F1B17 /* NDXuanliFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDXuanliFilter.h; sourceTree = "<group>"; };
+		5F38E3531C07319A004F1B17 /* NDXuanliFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDXuanliFilter.m; sourceTree = "<group>"; };
+		5F38E3541C07319A004F1B17 /* NDYanyangFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDYanyangFilter.h; sourceTree = "<group>"; };
+		5F38E3551C07319A004F1B17 /* NDYanyangFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDYanyangFilter.m; sourceTree = "<group>"; };
+		5F38E3561C07319A004F1B17 /* NDZengqiangFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDZengqiangFilter.h; sourceTree = "<group>"; };
+		5F38E3571C07319A004F1B17 /* NDZengqiangFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDZengqiangFilter.m; sourceTree = "<group>"; };
+		5F38E36F1C07319A004F1B17 /* NDCameraUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDCameraUtils.h; sourceTree = "<group>"; };
+		5F38E3701C07319A004F1B17 /* NDCameraUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDCameraUtils.m; sourceTree = "<group>"; };
+		5F38E3721C07319A004F1B17 /* NDDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDDate.h; sourceTree = "<group>"; };
+		5F38E3731C07319A004F1B17 /* NSDate+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Addition.h"; sourceTree = "<group>"; };
+		5F38E3741C07319A004F1B17 /* NSDate+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Addition.m"; sourceTree = "<group>"; };
+		5F38E3751C07319A004F1B17 /* NSDate+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Utilities.h"; sourceTree = "<group>"; };
+		5F38E3761C07319A004F1B17 /* NSDate+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Utilities.m"; sourceTree = "<group>"; };
+		5F38E3771C07319A004F1B17 /* NSDateFormatter+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+Category.h"; sourceTree = "<group>"; };
+		5F38E3781C07319A004F1B17 /* NSDateFormatter+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+Category.m"; sourceTree = "<group>"; };
+		5F38E37B1C07319A004F1B17 /* NDBaseService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDBaseService.h; sourceTree = "<group>"; };
+		5F38E37C1C07319A004F1B17 /* NDBaseService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDBaseService.m; sourceTree = "<group>"; };
+		5F38E37D1C07319A004F1B17 /* NDDataBaseModelProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDDataBaseModelProtocol.h; sourceTree = "<group>"; };
+		5F38E37E1C07319A004F1B17 /* NDDataBaseModelQueryProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDDataBaseModelQueryProtocol.h; sourceTree = "<group>"; };
+		5F38E3801C07319A004F1B17 /* NDGroupCondition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDGroupCondition.h; sourceTree = "<group>"; };
+		5F38E3811C07319A004F1B17 /* NDGroupCondition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDGroupCondition.m; sourceTree = "<group>"; };
+		5F38E3821C07319A004F1B17 /* NDLimitCondition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDLimitCondition.h; sourceTree = "<group>"; };
+		5F38E3831C07319A004F1B17 /* NDLimitCondition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDLimitCondition.m; sourceTree = "<group>"; };
+		5F38E3841C07319A004F1B17 /* NDOrderCondition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDOrderCondition.h; sourceTree = "<group>"; };
+		5F38E3851C07319A004F1B17 /* NDOrderCondition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDOrderCondition.m; sourceTree = "<group>"; };
+		5F38E3861C07319A004F1B17 /* NDQueryCondition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDQueryCondition.h; sourceTree = "<group>"; };
+		5F38E3871C07319A004F1B17 /* NDQueryCondition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDQueryCondition.m; sourceTree = "<group>"; };
+		5F38E3881C07319A004F1B17 /* NDStringQueryCondition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDStringQueryCondition.h; sourceTree = "<group>"; };
+		5F38E3891C07319A004F1B17 /* NDStringQueryCondition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDStringQueryCondition.m; sourceTree = "<group>"; };
+		5F38E38B1C07319A004F1B17 /* DBMappingTable.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DBMappingTable.plist; sourceTree = "<group>"; };
+		5F38E38C1C07319A004F1B17 /* NDConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDConfig.h; sourceTree = "<group>"; };
+		5F38E38E1C07319A004F1B17 /* NDBool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDBool.h; sourceTree = "<group>"; };
+		5F38E38F1C07319A004F1B17 /* NDBool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDBool.m; sourceTree = "<group>"; };
+		5F38E3901C07319A004F1B17 /* NDDouble.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDDouble.h; sourceTree = "<group>"; };
+		5F38E3911C07319A004F1B17 /* NDDouble.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDDouble.m; sourceTree = "<group>"; };
+		5F38E3921C07319A004F1B17 /* NDInteger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDInteger.h; sourceTree = "<group>"; };
+		5F38E3931C07319A004F1B17 /* NDInteger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDInteger.m; sourceTree = "<group>"; };
+		5F38E3941C07319A004F1B17 /* NDLong.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDLong.h; sourceTree = "<group>"; };
+		5F38E3951C07319A004F1B17 /* NDLong.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDLong.m; sourceTree = "<group>"; };
+		5F38E3971C07319A004F1B17 /* NDDataBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDDataBaseModel.h; sourceTree = "<group>"; };
+		5F38E3981C07319A004F1B17 /* NDDataBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDDataBaseModel.m; sourceTree = "<group>"; };
+		5F38E3991C07319A004F1B17 /* NDTableManageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDTableManageModel.h; sourceTree = "<group>"; };
+		5F38E39A1C07319A004F1B17 /* NDTableManageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDTableManageModel.m; sourceTree = "<group>"; };
+		5F38E39B1C07319A004F1B17 /* UserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
+		5F38E39C1C07319A004F1B17 /* UserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
+		5F38E39E1C07319A004F1B17 /* UserService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserService.h; sourceTree = "<group>"; };
+		5F38E39F1C07319A004F1B17 /* UserService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserService.m; sourceTree = "<group>"; };
+		5F38E3A11C07319A004F1B17 /* FMDatabase+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FMDatabase+Category.h"; sourceTree = "<group>"; };
+		5F38E3A21C07319A004F1B17 /* FMDatabase+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FMDatabase+Category.m"; sourceTree = "<group>"; };
+		5F38E3A31C07319A004F1B17 /* FMDatabaseQueue+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FMDatabaseQueue+Category.h"; sourceTree = "<group>"; };
+		5F38E3A41C07319A004F1B17 /* FMDatabaseQueue+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FMDatabaseQueue+Category.m"; sourceTree = "<group>"; };
+		5F38E3A51C07319A004F1B17 /* NDCommonFunc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDCommonFunc.h; sourceTree = "<group>"; };
+		5F38E3A61C07319A004F1B17 /* NDCommonFunc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDCommonFunc.m; sourceTree = "<group>"; };
+		5F38E3A71C07319A004F1B17 /* NDDatabaseUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDDatabaseUtils.h; sourceTree = "<group>"; };
+		5F38E3A81C07319A004F1B17 /* NDDatabaseUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDDatabaseUtils.m; sourceTree = "<group>"; };
+		5F38E3A91C07319A004F1B17 /* NDDataFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDDataFormat.h; sourceTree = "<group>"; };
+		5F38E3AA1C07319A004F1B17 /* NDDataFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDDataFormat.m; sourceTree = "<group>"; };
+		5F38E3AB1C07319A004F1B17 /* sqlite3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sqlite3.c; sourceTree = "<group>"; };
+		5F38E3AC1C07319A004F1B17 /* sqlite3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqlite3.h; sourceTree = "<group>"; };
+		5F38E3B41C07319A004F1B17 /* AFJSONResponseSerializer+Categary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AFJSONResponseSerializer+Categary.h"; sourceTree = "<group>"; };
+		5F38E3B51C07319A004F1B17 /* AFJSONResponseSerializer+Categary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AFJSONResponseSerializer+Categary.m"; sourceTree = "<group>"; };
+		5F38E3B71C07319A004F1B17 /* NDTDHTTPCallbackData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDTDHTTPCallbackData.h; sourceTree = "<group>"; };
+		5F38E3B81C07319A004F1B17 /* NDTDHTTPCallbackData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDTDHTTPCallbackData.m; sourceTree = "<group>"; };
+		5F38E3B91C07319A004F1B17 /* NDTDHTTPCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDTDHTTPCode.h; sourceTree = "<group>"; };
+		5F38E3BA1C07319A004F1B17 /* NDTDHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDTDHTTPRequest.h; sourceTree = "<group>"; };
+		5F38E3BB1C07319A004F1B17 /* NDTDHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDTDHTTPRequest.m; sourceTree = "<group>"; };
+		5F38E3BC1C07319A004F1B17 /* NDTDHTTPRequestData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDTDHTTPRequestData.h; sourceTree = "<group>"; };
+		5F38E3BD1C07319A004F1B17 /* NDTDHTTPRequestData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDTDHTTPRequestData.m; sourceTree = "<group>"; };
+		5F38E3BF1C07319A004F1B17 /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
+		5F38E3C01C07319A004F1B17 /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
+		5F38E3C11C07319A004F1B17 /* NDTDSocketCallbackData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDTDSocketCallbackData.h; sourceTree = "<group>"; };
+		5F38E3C21C07319A004F1B17 /* NDTDSocketCallbackData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDTDSocketCallbackData.m; sourceTree = "<group>"; };
+		5F38E3C31C07319A004F1B17 /* NDTDSocketCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDTDSocketCode.h; sourceTree = "<group>"; };
+		5F38E3C41C07319A004F1B17 /* NDTDSocketDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDTDSocketDelegate.h; sourceTree = "<group>"; };
+		5F38E3C51C07319A004F1B17 /* NDTDSocketListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDTDSocketListener.h; sourceTree = "<group>"; };
+		5F38E3C61C07319A004F1B17 /* NDTDSocketListener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDTDSocketListener.m; sourceTree = "<group>"; };
+		5F38E3C71C07319A004F1B17 /* NDTDSocketRequestData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDTDSocketRequestData.h; sourceTree = "<group>"; };
+		5F38E3C81C07319A004F1B17 /* NDTDSocketRequestData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDTDSocketRequestData.m; sourceTree = "<group>"; };
+		5F38E3CA1C07319A004F1B17 /* NDTDLoadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDTDLoadView.h; sourceTree = "<group>"; };
+		5F38E3CB1C07319A004F1B17 /* NDTDLoadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDTDLoadView.m; sourceTree = "<group>"; };
+		5F38E3CC1C07319A004F1B17 /* NDTDNetworkDataCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDTDNetworkDataCache.h; sourceTree = "<group>"; };
+		5F38E3CD1C07319A004F1B17 /* NDTDNetworkDataCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDTDNetworkDataCache.m; sourceTree = "<group>"; };
+		5F38E3CE1C07319A004F1B17 /* NDTDNetworkMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDTDNetworkMonitor.h; sourceTree = "<group>"; };
+		5F38E3CF1C07319A004F1B17 /* NDTDNetworkMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDTDNetworkMonitor.m; sourceTree = "<group>"; };
+		5F38E3D11C07319A004F1B17 /* NDTDFileUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDTDFileUtility.h; sourceTree = "<group>"; };
+		5F38E3D21C07319A004F1B17 /* NDTDFileUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDTDFileUtility.m; sourceTree = "<group>"; };
+		5F38E3D41C07319A004F1B17 /* NDAlbums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDAlbums.h; sourceTree = "<group>"; };
+		5F38E3D51C07319A004F1B17 /* NDAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDAsset.h; sourceTree = "<group>"; };
+		5F38E3D61C07319A004F1B17 /* NDAsset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDAsset.m; sourceTree = "<group>"; };
+		5F38E3D71C07319A004F1B17 /* NDAssetsGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDAssetsGroup.h; sourceTree = "<group>"; };
+		5F38E3D81C07319A004F1B17 /* NDAssetsGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDAssetsGroup.m; sourceTree = "<group>"; };
+		5F38E3D91C07319A004F1B17 /* NDAssetsLibraryRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDAssetsLibraryRequest.h; sourceTree = "<group>"; };
+		5F38E3DA1C07319A004F1B17 /* NDAssetsLibraryRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDAssetsLibraryRequest.m; sourceTree = "<group>"; };
+		5F38E3DC1C07319A004F1B17 /* NDColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDColor.h; sourceTree = "<group>"; };
+		5F38E3DD1C07319A004F1B17 /* UIColor+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Category.h"; sourceTree = "<group>"; };
+		5F38E3DE1C07319A004F1B17 /* UIColor+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Category.m"; sourceTree = "<group>"; };
+		5F38E3DF1C07319A004F1B17 /* UIColor+Gradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Gradient.h"; sourceTree = "<group>"; };
+		5F38E3E01C07319A004F1B17 /* UIColor+Gradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Gradient.m"; sourceTree = "<group>"; };
+		5F38E3E11C07319A004F1B17 /* UIColor+Modify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Modify.h"; sourceTree = "<group>"; };
+		5F38E3E21C07319A004F1B17 /* UIColor+Modify.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Modify.m"; sourceTree = "<group>"; };
+		5F38E3E31C07319A004F1B17 /* UIColor+Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Random.h"; sourceTree = "<group>"; };
+		5F38E3E41C07319A004F1B17 /* UIColor+Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Random.m"; sourceTree = "<group>"; };
+		5F38E3E81C07319A004F1B17 /* UMAccountInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMAccountInfo.h; sourceTree = "<group>"; };
+		5F38E3E91C07319A004F1B17 /* UMAccountInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMAccountInfo.m; sourceTree = "<group>"; };
+		5F38E3EA1C07319A004F1B17 /* UMLoginAndShare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMLoginAndShare.h; sourceTree = "<group>"; };
+		5F38E3EB1C07319A004F1B17 /* UMLoginAndShare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMLoginAndShare.m; sourceTree = "<group>"; };
+		5F38E3EC1C07319A004F1B17 /* UMShareData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMShareData.h; sourceTree = "<group>"; };
+		5F38E3ED1C07319A004F1B17 /* UMShareData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMShareData.m; sourceTree = "<group>"; };
+		5F38E3F21C07319A004F1B17 /* amrFileCodec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = amrFileCodec.h; sourceTree = "<group>"; };
+		5F38E3F31C07319A004F1B17 /* amrFileCodec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = amrFileCodec.mm; sourceTree = "<group>"; };
+		5F38E3F41C07319A004F1B17 /* wav.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wav.h; sourceTree = "<group>"; };
+		5F38E3F51C07319A004F1B17 /* wav.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = wav.mm; sourceTree = "<group>"; };
+		5F38E3F91C07319A004F1B17 /* interf_dec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interf_dec.h; sourceTree = "<group>"; };
+		5F38E3FA1C07319A004F1B17 /* interf_enc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interf_enc.h; sourceTree = "<group>"; };
+		5F38E3FB1C07319A004F1B17 /* libopencore-amrnb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrnb.a"; sourceTree = "<group>"; };
+		5F38E3FD1C07319A004F1B17 /* dec_if.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dec_if.h; sourceTree = "<group>"; };
+		5F38E3FE1C07319A004F1B17 /* if_rom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = if_rom.h; sourceTree = "<group>"; };
+		5F38E3FF1C07319A004F1B17 /* libopencore-amrwb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrwb.a"; sourceTree = "<group>"; };
+		5F38E4021C07319A004F1B17 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		5F38E4031C07319A004F1B17 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		5F38E4041C07319A004F1B17 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		5F38E4061C07319A004F1B17 /* NDJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDJson.h; sourceTree = "<group>"; };
+		5F38E4071C07319A004F1B17 /* NDJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDJson.m; sourceTree = "<group>"; };
+		5F38E4081C07319A004F1B17 /* NDString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDString.h; sourceTree = "<group>"; };
+		5F38E4091C07319A004F1B17 /* NSString+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Category.h"; sourceTree = "<group>"; };
+		5F38E40A1C07319A004F1B17 /* NSString+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Category.m"; sourceTree = "<group>"; };
+		5F38E40B1C07319A004F1B17 /* RegexKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegexKitLite.h; sourceTree = "<group>"; };
+		5F38E40C1C07319A004F1B17 /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegexKitLite.m; sourceTree = "<group>"; };
+		5F38E40E1C07319A004F1B17 /* NSData+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Category.h"; sourceTree = "<group>"; };
+		5F38E40F1C07319A004F1B17 /* NSData+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Category.m"; sourceTree = "<group>"; };
+		5F38E4151C07319A004F1B17 /* NDKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDKeychain.h; sourceTree = "<group>"; };
+		5F38E4161C07319A004F1B17 /* NDKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDKeychain.m; sourceTree = "<group>"; };
+		5F38E4181C07319A004F1B17 /* NDBaseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDBaseViewModel.h; sourceTree = "<group>"; };
+		5F38E4191C07319A004F1B17 /* NDBaseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDBaseViewModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31AE5CFB1B4E46F0009CFAB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F38E46C1C07319A004F1B17 /* libopencore-amrwb.a in Frameworks */,
+				5F38E46B1C07319A004F1B17 /* libopencore-amrnb.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31AE5D061B4E46F0009CFAB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31AE5D0A1B4E46F0009CFAB0 /* libNDSDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		189F12951BB3D686009E6A0B /* SubProjPodsConfig */ = {
+			isa = PBXGroup;
+			children = (
+				189F12961BB3D686009E6A0B /* Pods.debug.xcconfig */,
+				189F12971BB3D686009E6A0B /* Pods.release.xcconfig */,
+			);
+			name = SubProjPodsConfig;
+			path = ../SubProjPodsConfig;
+			sourceTree = "<group>";
+		};
+		3185A2061B55003200D0494B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3185A2071B55005900D0494B /* NDSDK-PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		31AE5CF51B4E46F0009CFAB0 = {
+			isa = PBXGroup;
+			children = (
+				31AE5D001B4E46F0009CFAB0 /* NDSDK */,
+				31AE5D0D1B4E46F0009CFAB0 /* NDSDKTests */,
+				31AE5CFF1B4E46F0009CFAB0 /* Products */,
+				189F12951BB3D686009E6A0B /* SubProjPodsConfig */,
+			);
+			sourceTree = "<group>";
+		};
+		31AE5CFF1B4E46F0009CFAB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31AE5CFE1B4E46F0009CFAB0 /* libNDSDK.a */,
+				31AE5D091B4E46F0009CFAB0 /* NDSDKTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31AE5D001B4E46F0009CFAB0 /* NDSDK */ = {
+			isa = PBXGroup;
+			children = (
+				5F38E3281C07319A004F1B17 /* 阿里云图片上传 */,
+				5F38E32E1C07319A004F1B17 /* 滤镜 */,
+				5F38E3581C07319A004F1B17 /* 日志 */,
+				5F38E35B1C07319A004F1B17 /* 设备管理器 */,
+				5F38E3711C07319A004F1B17 /* 时间 */,
+				5F38E3791C07319A004F1B17 /* 数据库 */,
+				5F38E3B21C07319A004F1B17 /* 网络 */,
+				5F38E3D01C07319A004F1B17 /* 文件处理 */,
+				5F38E3D31C07319A004F1B17 /* 相册 */,
+				5F38E3DB1C07319A004F1B17 /* 颜色 */,
+				5F38E3E51C07319A004F1B17 /* 友盟 */,
+				5F38E3F01C07319A004F1B17 /* 语音转换 */,
+				5F38E4001C07319A004F1B17 /* 字符处理 */,
+				5F38E40D1C07319A004F1B17 /* 字节数据 */,
+				5F38E4141C07319A004F1B17 /* keychain */,
+				5F38E4171C07319A004F1B17 /* MVVM */,
+				31AE5D011B4E46F0009CFAB0 /* NDSDK.h */,
+				31AE5D031B4E46F0009CFAB0 /* NDSDK.m */,
+				3185A2061B55003200D0494B /* Supporting Files */,
+			);
+			path = NDSDK;
+			sourceTree = "<group>";
+		};
+		31AE5D0D1B4E46F0009CFAB0 /* NDSDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				31AE5D0E1B4E46F0009CFAB0 /* Info.plist */,
+			);
+			path = NDSDKTests;
+			sourceTree = "<group>";
+		};
+		5F38E3281C07319A004F1B17 /* 阿里云图片上传 */ = {
+			isa = PBXGroup;
+			children = (
+				5F38E3291C07319A004F1B17 /* ALYUploadPic.h */,
+				5F38E32A1C07319A004F1B17 /* ALYUploadPic.m */,
+			);
+			path = "阿里云图片上传";
+			sourceTree = "<group>";
+		};
+		5F38E32E1C07319A004F1B17 /* 滤镜 */ = {
+			isa = PBXGroup;
+			children = (
+				5F38E32F1C07319A004F1B17 /* GPUImageFiveInputFilter.h */,
+				5F38E3301C07319A004F1B17 /* GPUImageFiveInputFilter.m */,
+				5F38E3311C07319A004F1B17 /* GPUImageFourInputFilter.h */,
+				5F38E3321C07319A004F1B17 /* GPUImageFourInputFilter.m */,
+				5F38E3331C07319A004F1B17 /* GPUImageSixInputFilter.h */,
+				5F38E3341C07319A004F1B17 /* GPUImageSixInputFilter.m */,
+				5F38E3351C07319A004F1B17 /* NDDanyaFilter.h */,
+				5F38E3361C07319A004F1B17 /* NDDanyaFilter.m */,
+				5F38E3371C07319A004F1B17 /* NDDengguangFilter.h */,
+				5F38E3381C07319A004F1B17 /* NDDengguangFilter.m */,
+				5F38E3391C07319A004F1B17 /* NDDuibiFilter.h */,
+				5F38E33A1C07319A004F1B17 /* NDDuibiFilter.m */,
+				5F38E33B1C07319A004F1B17 /* NDFeicuilvFilter.h */,
+				5F38E33C1C07319A004F1B17 /* NDFeicuilvFilter.m */,
+				5F38E33D1C07319A004F1B17 /* NDFuguFilter.h */,
+				5F38E33E1C07319A004F1B17 /* NDFuguFilter.m */,
+				5F38E33F1C07319A004F1B17 /* NDGaoliangFilter.h */,
+				5F38E3401C07319A004F1B17 /* NDGaoliangFilter.m */,
+				5F38E3411C07319A004F1B17 /* NDHeibaiFilter.h */,
+				5F38E3421C07319A004F1B17 /* NDHeibaiFilter.m */,
+				5F38E3431C07319A004F1B17 /* NDImageFilter.h */,
+				5F38E3441C07319A004F1B17 /* NDJinseFilter.h */,
+				5F38E3451C07319A004F1B17 /* NDJinseFilter.m */,
+				5F38E3461C07319A004F1B17 /* NDLengSeFilter.h */,
+				5F38E3471C07319A004F1B17 /* NDLengSeFilter.m */,
+				5F38E3481C07319A004F1B17 /* NDMihuangFilter.h */,
+				5F38E3491C07319A004F1B17 /* NDMihuangFilter.m */,
+				5F38E34A1C07319A004F1B17 /* NDNaixiseFilter.h */,
+				5F38E34B1C07319A004F1B17 /* NDNaixiseFilter.m */,
+				5F38E34C1C07319A004F1B17 /* NDRouheFilter.h */,
+				5F38E34D1C07319A004F1B17 /* NDRouheFilter.m */,
+				5F38E34E1C07319A004F1B17 /* NDTongseFilter.h */,
+				5F38E34F1C07319A004F1B17 /* NDTongseFilter.m */,
+				5F38E3501C07319A004F1B17 /* NDXiandaiFilter.h */,
+				5F38E3511C07319A004F1B17 /* NDXiandaiFilter.m */,
+				5F38E3521C07319A004F1B17 /* NDXuanliFilter.h */,
+				5F38E3531C07319A004F1B17 /* NDXuanliFilter.m */,
+				5F38E3541C07319A004F1B17 /* NDYanyangFilter.h */,
+				5F38E3551C07319A004F1B17 /* NDYanyangFilter.m */,
+				5F38E3561C07319A004F1B17 /* NDZengqiangFilter.h */,
+				5F38E3571C07319A004F1B17 /* NDZengqiangFilter.m */,
+			);
+			path = "滤镜";
+			sourceTree = "<group>";
+		};
+		5F38E3581C07319A004F1B17 /* 日志 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "日志";
+			sourceTree = "<group>";
+		};
+		5F38E35B1C07319A004F1B17 /* 设备管理器 */ = {
+			isa = PBXGroup;
+			children = (
+				5F38E36E1C07319A004F1B17 /* 照相机 */,
+			);
+			path = "设备管理器";
+			sourceTree = "<group>";
+		};
+		5F38E36E1C07319A004F1B17 /* 照相机 */ = {
+			isa = PBXGroup;
+			children = (
+				5F38E36F1C07319A004F1B17 /* NDCameraUtils.h */,
+				5F38E3701C07319A004F1B17 /* NDCameraUtils.m */,
+			);
+			path = "照相机";
+			sourceTree = "<group>";
+		};
+		5F38E3711C07319A004F1B17 /* 时间 */ = {
+			isa = PBXGroup;
+			children = (
+				5F38E3721C07319A004F1B17 /* NDDate.h */,
+				5F38E3731C07319A004F1B17 /* NSDate+Addition.h */,
+				5F38E3741C07319A004F1B17 /* NSDate+Addition.m */,
+				5F38E3751C07319A004F1B17 /* NSDate+Utilities.h */,
+				5F38E3761C07319A004F1B17 /* NSDate+Utilities.m */,
+				5F38E3771C07319A004F1B17 /* NSDateFormatter+Category.h */,
+				5F38E3781C07319A004F1B17 /* NSDateFormatter+Category.m */,
+			);
+			path = "时间";
+			sourceTree = "<group>";
+		};
+		5F38E3791C07319A004F1B17 /* 数据库 */ = {
+			isa = PBXGroup;
+			children = (
+				5F38E37A1C07319A004F1B17 /* Base */,
+				5F38E37F1C07319A004F1B17 /* Condition */,
+				5F38E38A1C07319A004F1B17 /* Config */,
+				5F38E38D1C07319A004F1B17 /* DataType */,
+				5F38E3961C07319A004F1B17 /* Model */,
+				5F38E39D1C07319A004F1B17 /* Service */,
+				5F38E3A01C07319A004F1B17 /* Utils */,
+			);
+			path = "数据库";
+			sourceTree = "<group>";
+		};
+		5F38E37A1C07319A004F1B17 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				5F38E37B1C07319A004F1B17 /* NDBaseService.h */,
+				5F38E37C1C07319A004F1B17 /* NDBaseService.m */,
+				5F38E37D1C07319A004F1B17 /* NDDataBaseModelProtocol.h */,
+				5F38E37E1C07319A004F1B17 /* NDDataBaseModelQueryProtocol.h */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		5F38E37F1C07319A004F1B17 /* Condition */ = {
+			isa = PBXGroup;
+			children = (
+				5F38E3801C07319A004F1B17 /* NDGroupCondition.h */,
+				5F38E3811C07319A004F1B17 /* NDGroupCondition.m */,
+				5F38E3821C07319A004F1B17 /* NDLimitCondition.h */,
+				5F38E3831C07319A004F1B17 /* NDLimitCondition.m */,
+				5F38E3841C07319A004F1B17 /* NDOrderCondition.h */,
+				5F38E3851C07319A004F1B17 /* NDOrderCondition.m */,
+				5F38E3861C07319A004F1B17 /* NDQueryCondition.h */,
+				5F38E3871C07319A004F1B17 /* NDQueryCondition.m */,
+				5F38E3881C07319A004F1B17 /* NDStringQueryCondition.h */,
+				5F38E3891C07319A004F1B17 /* NDStringQueryCondition.m */,
+			);
+			path = Condition;
+			sourceTree = "<group>";
+		};
+		5F38E38A1C07319A004F1B17 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				5F38E38B1C07319A004F1B17 /* DBMappingTable.plist */,
+				5F38E38C1C07319A004F1B17 /* NDConfig.h */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		5F38E38D1C07319A004F1B17 /* DataType */ = {
+			isa = PBXGroup;
+			children = (
+				5F38E38E1C07319A004F1B17 /* NDBool.h */,
+				5F38E38F1C07319A004F1B17 /* NDBool.m */,
+				5F38E3901C07319A004F1B17 /* NDDouble.h */,
+				5F38E3911C07319A004F1B17 /* NDDouble.m */,
+				5F38E3921C07319A004F1B17 /* NDInteger.h */,
+				5F38E3931C07319A004F1B17 /* NDInteger.m */,
+				5F38E3941C07319A004F1B17 /* NDLong.h */,
+				5F38E3951C07319A004F1B17 /* NDLong.m */,
+			);
+			path = DataType;
+			sourceTree = "<group>";
+		};
+		5F38E3961C07319A004F1B17 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5F38E3971C07319A004F1B17 /* NDDataBaseModel.h */,
+				5F38E3981C07319A004F1B17 /* NDDataBaseModel.m */,
+				5F38E3991C07319A004F1B17 /* NDTableManageModel.h */,
+				5F38E39A1C07319A004F1B17 /* NDTableManageModel.m */,
+				5F38E39B1C07319A004F1B17 /* UserModel.h */,
+				5F38E39C1C07319A004F1B17 /* UserModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5F38E39D1C07319A004F1B17 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				5F38E39E1C07319A004F1B17 /* UserService.h */,
+				5F38E39F1C07319A004F1B17 /* UserService.m */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		5F38E3A01C07319A004F1B17 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				5F38E3A11C07319A004F1B17 /* FMDatabase+Category.h */,
+				5F38E3A21C07319A004F1B17 /* FMDatabase+Category.m */,
+				5F38E3A31C07319A004F1B17 /* FMDatabaseQueue+Category.h */,
+				5F38E3A41C07319A004F1B17 /* FMDatabaseQueue+Category.m */,
+				5F38E3A51C07319A004F1B17 /* NDCommonFunc.h */,
+				5F38E3A61C07319A004F1B17 /* NDCommonFunc.m */,
+				5F38E3A71C07319A004F1B17 /* NDDatabaseUtils.h */,
+				5F38E3A81C07319A004F1B17 /* NDDatabaseUtils.m */,
+				5F38E3A91C07319A004F1B17 /* NDDataFormat.h */,
+				5F38E3AA1C07319A004F1B17 /* NDDataFormat.m */,
+				5F38E3AB1C07319A004F1B17 /* sqlite3.c */,
+				5F38E3AC1C07319A004F1B17 /* sqlite3.h */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		5F38E3B21C07319A004F1B17 /* 网络 */ = {
+			isa = PBXGroup;
+			children = (
+				5F38E3B31C07319A004F1B17 /* AF拓展 */,
+				5F38E3B61C07319A004F1B17 /* HTTP */,
+				5F38E3BE1C07319A004F1B17 /* SOCKET */,
+				5F38E3C91C07319A004F1B17 /* 网络框架工具类 */,
+			);
+			path = "网络";
+			sourceTree = "<group>";
+		};
+		5F38E3B31C07319A004F1B17 /* AF拓展 */ = {
+			isa = PBXGroup;
+			children = (
+				5F38E3B41C07319A004F1B17 /* AFJSONResponseSerializer+Categary.h */,
+				5F38E3B51C07319A004F1B17 /* AFJSONResponseSerializer+Categary.m */,
+			);
+			path = "AF拓展";
+			sourceTree = "<group>";
+		};
+		5F38E3B61C07319A004F1B17 /* HTTP */ = {
+			isa = PBXGroup;
+			children = (
+				5F38E3B71C07319A004F1B17 /* NDTDHTTPCallbackData.h */,
+				5F38E3B81C07319A004F1B17 /* NDTDHTTPCallbackData.m */,
+				5F38E3B91C07319A004F1B17 /* NDTDHTTPCode.h */,
+				5F38E3BA1C07319A004F1B17 /* NDTDHTTPRequest.h */,
+				5F38E3BB1C07319A004F1B17 /* NDTDHTTPRequest.m */,
+				5F38E3BC1C07319A004F1B17 /* NDTDHTTPRequestData.h */,
+				5F38E3BD1C07319A004F1B17 /* NDTDHTTPRequestData.m */,
+			);
+			path = HTTP;
+			sourceTree = "<group>";
+		};
+		5F38E3BE1C07319A004F1B17 /* SOCKET */ = {
+			isa = PBXGroup;
+			children = (
+				5F38E3BF1C07319A004F1B17 /* AsyncSocket.h */,
+				5F38E3C01C07319A004F1B17 /* AsyncSocket.m */,
+				5F38E3C11C07319A004F1B17 /* NDTDSocketCallbackData.h */,
+				5F38E3C21C07319A004F1B17 /* NDTDSocketCallbackData.m */,
+				5F38E3C31C07319A004F1B17 /* NDTDSocketCode.h */,
+				5F38E3C41C07319A004F1B17 /* NDTDSocketDelegate.h */,
+				5F38E3C51C07319A004F1B17 /* NDTDSocketListener.h */,
+				5F38E3C61C07319A004F1B17 /* NDTDSocketListener.m */,
+				5F38E3C71C07319A004F1B17 /* NDTDSocketRequestData.h */,
+				5F38E3C81C07319A004F1B17 /* NDTDSocketRequestData.m */,
+			);
+			path = SOCKET;
+			sourceTree = "<group>";
+		};
+		5F38E3C91C07319A004F1B17 /* 网络框架工具类 */ = {
+			isa = PBXGroup;
+			children = (
+				5F38E3CA1C07319A004F1B17 /* NDTDLoadView.h */,
+				5F38E3CB1C07319A004F1B17 /* NDTDLoadView.m */,
+				5F38E3CC1C07319A004F1B17 /* NDTDNetworkDataCache.h */,
+				5F38E3CD1C07319A004F1B17 /* NDTDNetworkDataCache.m */,
+				5F38E3CE1C07319A004F1B17 /* NDTDNetworkMonitor.h */,
+				5F38E3CF1C07319A004F1B17 /* NDTDNetworkMonitor.m */,
+			);
+			path = "网络框架工具类";
+			sourceTree = "<group>";
+		};
+		5F38E3D01C07319A004F1B17 /* 文件处理 */ = {
+			isa = PBXGroup;
+			children = (
+				5F38E3D11C07319A004F1B17 /* NDTDFileUtility.h */,
+				5F38E3D21C07319A004F1B17 /* NDTDFileUtility.m */,
+			);
+			path = "文件处理";
+			sourceTree = "<group>";
+		};
+		5F38E3D31C07319A004F1B17 /* 相册 */ = {
+			isa = PBXGroup;
+			children = (
+				5F38E3D41C07319A004F1B17 /* NDAlbums.h */,
+				5F38E3D51C07319A004F1B17 /* NDAsset.h */,
+				5F38E3D61C07319A004F1B17 /* NDAsset.m */,
+				5F38E3D71C07319A004F1B17 /* NDAssetsGroup.h */,
+				5F38E3D81C07319A004F1B17 /* NDAssetsGroup.m */,
+				5F38E3D91C07319A004F1B17 /* NDAssetsLibraryRequest.h */,
+				5F38E3DA1C07319A004F1B17 /* NDAssetsLibraryRequest.m */,
+			);
+			path = "相册";
+			sourceTree = "<group>";
+		};
+		5F38E3DB1C07319A004F1B17 /* 颜色 */ = {
+			isa = PBXGroup;
+			children = (
+				5F38E3DC1C07319A004F1B17 /* NDColor.h */,
+				5F38E3DD1C07319A004F1B17 /* UIColor+Category.h */,
+				5F38E3DE1C07319A004F1B17 /* UIColor+Category.m */,
+				5F38E3DF1C07319A004F1B17 /* UIColor+Gradient.h */,
+				5F38E3E01C07319A004F1B17 /* UIColor+Gradient.m */,
+				5F38E3E11C07319A004F1B17 /* UIColor+Modify.h */,
+				5F38E3E21C07319A004F1B17 /* UIColor+Modify.m */,
+				5F38E3E31C07319A004F1B17 /* UIColor+Random.h */,
+				5F38E3E41C07319A004F1B17 /* UIColor+Random.m */,
+			);
+			path = "颜色";
+			sourceTree = "<group>";
+		};
+		5F38E3E51C07319A004F1B17 /* 友盟 */ = {
+			isa = PBXGroup;
+			children = (
+				5F38E3E61C07319A004F1B17 /* 分享 */,
+				5F38E3E71C07319A004F1B17 /* 分享和登录 */,
+				5F38E3EE1C07319A004F1B17 /* 登录 */,
+				5F38E3EF1C07319A004F1B17 /* 统计 */,
+			);
+			path = "友盟";
+			sourceTree = "<group>";
+		};
+		5F38E3E61C07319A004F1B17 /* 分享 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "分享";
+			sourceTree = "<group>";
+		};
+		5F38E3E71C07319A004F1B17 /* 分享和登录 */ = {
+			isa = PBXGroup;
+			children = (
+				5F38E3E81C07319A004F1B17 /* UMAccountInfo.h */,
+				5F38E3E91C07319A004F1B17 /* UMAccountInfo.m */,
+				5F38E3EA1C07319A004F1B17 /* UMLoginAndShare.h */,
+				5F38E3EB1C07319A004F1B17 /* UMLoginAndShare.m */,
+				5F38E3EC1C07319A004F1B17 /* UMShareData.h */,
+				5F38E3ED1C07319A004F1B17 /* UMShareData.m */,
+			);
+			path = "分享和登录";
+			sourceTree = "<group>";
+		};
+		5F38E3EE1C07319A004F1B17 /* 登录 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "登录";
+			sourceTree = "<group>";
+		};
+		5F38E3EF1C07319A004F1B17 /* 统计 */ = {
+			isa = PBXGroup;
+			children = (
+				1896B3301C15361E00F7E978 /* UmengStatistical.h */,
+				1896B3311C15361E00F7E978 /* UmengStatistical.m */,
+			);
+			path = "统计";
+			sourceTree = "<group>";
+		};
+		5F38E3F01C07319A004F1B17 /* 语音转换 */ = {
+			isa = PBXGroup;
+			children = (
+				5F38E3F11C07319A004F1B17 /* amrwapper */,
+				5F38E3F81C07319A004F1B17 /* opencore-amrnb */,
+				5F38E3FC1C07319A004F1B17 /* opencore-amrwb */,
+			);
+			path = "语音转换";
+			sourceTree = "<group>";
+		};
+		5F38E3F11C07319A004F1B17 /* amrwapper */ = {
+			isa = PBXGroup;
+			children = (
+				5F38E3F21C07319A004F1B17 /* amrFileCodec.h */,
+				5F38E3F31C07319A004F1B17 /* amrFileCodec.mm */,
+				5F38E3F41C07319A004F1B17 /* wav.h */,
+				5F38E3F51C07319A004F1B17 /* wav.mm */,
+			);
+			path = amrwapper;
+			sourceTree = "<group>";
+		};
+		5F38E3F81C07319A004F1B17 /* opencore-amrnb */ = {
+			isa = PBXGroup;
+			children = (
+				5F38E3F91C07319A004F1B17 /* interf_dec.h */,
+				5F38E3FA1C07319A004F1B17 /* interf_enc.h */,
+				5F38E3FB1C07319A004F1B17 /* libopencore-amrnb.a */,
+			);
+			path = "opencore-amrnb";
+			sourceTree = "<group>";
+		};
+		5F38E3FC1C07319A004F1B17 /* opencore-amrwb */ = {
+			isa = PBXGroup;
+			children = (
+				5F38E3FD1C07319A004F1B17 /* dec_if.h */,
+				5F38E3FE1C07319A004F1B17 /* if_rom.h */,
+				5F38E3FF1C07319A004F1B17 /* libopencore-amrwb.a */,
+			);
+			path = "opencore-amrwb";
+			sourceTree = "<group>";
+		};
+		5F38E4001C07319A004F1B17 /* 字符处理 */ = {
+			isa = PBXGroup;
+			children = (
+				5F38E4011C07319A004F1B17 /* GTMBase64 */,
+				5F38E4051C07319A004F1B17 /* JSON */,
+				5F38E4081C07319A004F1B17 /* NDString.h */,
+				5F38E4091C07319A004F1B17 /* NSString+Category.h */,
+				5F38E40A1C07319A004F1B17 /* NSString+Category.m */,
+				5F38E40B1C07319A004F1B17 /* RegexKitLite.h */,
+				5F38E40C1C07319A004F1B17 /* RegexKitLite.m */,
+			);
+			path = "字符处理";
+			sourceTree = "<group>";
+		};
+		5F38E4011C07319A004F1B17 /* GTMBase64 */ = {
+			isa = PBXGroup;
+			children = (
+				5F38E4021C07319A004F1B17 /* GTMBase64.h */,
+				5F38E4031C07319A004F1B17 /* GTMBase64.m */,
+				5F38E4041C07319A004F1B17 /* GTMDefines.h */,
+			);
+			path = GTMBase64;
+			sourceTree = "<group>";
+		};
+		5F38E4051C07319A004F1B17 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				5F38E4061C07319A004F1B17 /* NDJson.h */,
+				5F38E4071C07319A004F1B17 /* NDJson.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		5F38E40D1C07319A004F1B17 /* 字节数据 */ = {
+			isa = PBXGroup;
+			children = (
+				5F38E40E1C07319A004F1B17 /* NSData+Category.h */,
+				5F38E40F1C07319A004F1B17 /* NSData+Category.m */,
+			);
+			path = "字节数据";
+			sourceTree = "<group>";
+		};
+		5F38E4141C07319A004F1B17 /* keychain */ = {
+			isa = PBXGroup;
+			children = (
+				5F38E4151C07319A004F1B17 /* NDKeychain.h */,
+				5F38E4161C07319A004F1B17 /* NDKeychain.m */,
+			);
+			path = keychain;
+			sourceTree = "<group>";
+		};
+		5F38E4171C07319A004F1B17 /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				5F38E4181C07319A004F1B17 /* NDBaseViewModel.h */,
+				5F38E4191C07319A004F1B17 /* NDBaseViewModel.m */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31AE5CFD1B4E46F0009CFAB0 /* NDSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31AE5D111B4E46F0009CFAB0 /* Build configuration list for PBXNativeTarget "NDSDK" */;
+			buildPhases = (
+				31AE5CFA1B4E46F0009CFAB0 /* Sources */,
+				31AE5CFB1B4E46F0009CFAB0 /* Frameworks */,
+				31AE5CFC1B4E46F0009CFAB0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NDSDK;
+			productName = NDSDK;
+			productReference = 31AE5CFE1B4E46F0009CFAB0 /* libNDSDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		31AE5D081B4E46F0009CFAB0 /* NDSDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31AE5D141B4E46F0009CFAB0 /* Build configuration list for PBXNativeTarget "NDSDKTests" */;
+			buildPhases = (
+				31AE5D051B4E46F0009CFAB0 /* Sources */,
+				31AE5D061B4E46F0009CFAB0 /* Frameworks */,
+				31AE5D071B4E46F0009CFAB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31AE5D0C1B4E46F0009CFAB0 /* PBXTargetDependency */,
+			);
+			name = NDSDKTests;
+			productName = NDSDKTests;
+			productReference = 31AE5D091B4E46F0009CFAB0 /* NDSDKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31AE5CF61B4E46F0009CFAB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = nd;
+				TargetAttributes = {
+					31AE5CFD1B4E46F0009CFAB0 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					31AE5D081B4E46F0009CFAB0 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 31AE5CF91B4E46F0009CFAB0 /* Build configuration list for PBXProject "NDSDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 31AE5CF51B4E46F0009CFAB0;
+			productRefGroup = 31AE5CFF1B4E46F0009CFAB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31AE5CFD1B4E46F0009CFAB0 /* NDSDK */,
+				31AE5D081B4E46F0009CFAB0 /* NDSDKTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31AE5D071B4E46F0009CFAB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31AE5CFA1B4E46F0009CFAB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F38E44D1C07319A004F1B17 /* NDDatabaseUtils.m in Sources */,
+				5F38E4631C07319A004F1B17 /* UIColor+Modify.m in Sources */,
+				5F38E45A1C07319A004F1B17 /* NDTDLoadView.m in Sources */,
+				5F38E4681C07319A004F1B17 /* amrFileCodec.mm in Sources */,
+				5F38E4381C07319A004F1B17 /* NDCameraUtils.m in Sources */,
+				5F38E4741C07319A004F1B17 /* NDBaseViewModel.m in Sources */,
+				5F38E4661C07319A004F1B17 /* UMLoginAndShare.m in Sources */,
+				5F38E46F1C07319A004F1B17 /* NSString+Category.m in Sources */,
+				5F38E4581C07319A004F1B17 /* NDTDSocketListener.m in Sources */,
+				5F38E4391C07319A004F1B17 /* NSDate+Addition.m in Sources */,
+				5F38E44C1C07319A004F1B17 /* NDCommonFunc.m in Sources */,
+				5F38E4481C07319A004F1B17 /* UserModel.m in Sources */,
+				5F38E43A1C07319A004F1B17 /* NSDate+Utilities.m in Sources */,
+				5F38E4451C07319A004F1B17 /* NDLong.m in Sources */,
+				5F38E4441C07319A004F1B17 /* NDInteger.m in Sources */,
+				5F38E45F1C07319A004F1B17 /* NDAssetsGroup.m in Sources */,
+				5F38E43C1C07319A004F1B17 /* NDBaseService.m in Sources */,
+				5F38E4261C07319A004F1B17 /* NDJinseFilter.m in Sources */,
+				5F38E41C1C07319A004F1B17 /* GPUImageFiveInputFilter.m in Sources */,
+				5F38E4281C07319A004F1B17 /* NDMihuangFilter.m in Sources */,
+				5F38E4251C07319A004F1B17 /* NDHeibaiFilter.m in Sources */,
+				5F38E42F1C07319A004F1B17 /* NDZengqiangFilter.m in Sources */,
+				5F38E42D1C07319A004F1B17 /* NDXuanliFilter.m in Sources */,
+				5F38E43B1C07319A004F1B17 /* NSDateFormatter+Category.m in Sources */,
+				5F38E4421C07319A004F1B17 /* NDBool.m in Sources */,
+				5F38E4731C07319A004F1B17 /* NDKeychain.m in Sources */,
+				5F38E4701C07319A004F1B17 /* RegexKitLite.m in Sources */,
+				5F38E44F1C07319A004F1B17 /* sqlite3.c in Sources */,
+				5F38E45C1C07319A004F1B17 /* NDTDNetworkMonitor.m in Sources */,
+				5F38E42E1C07319A004F1B17 /* NDYanyangFilter.m in Sources */,
+				5F38E41F1C07319A004F1B17 /* NDDanyaFilter.m in Sources */,
+				5F38E4401C07319A004F1B17 /* NDQueryCondition.m in Sources */,
+				5F38E4291C07319A004F1B17 /* NDNaixiseFilter.m in Sources */,
+				5F38E4201C07319A004F1B17 /* NDDengguangFilter.m in Sources */,
+				5F38E4431C07319A004F1B17 /* NDDouble.m in Sources */,
+				5F38E46D1C07319A004F1B17 /* GTMBase64.m in Sources */,
+				5F38E4571C07319A004F1B17 /* NDTDSocketCallbackData.m in Sources */,
+				5F38E4551C07319A004F1B17 /* NDTDHTTPRequestData.m in Sources */,
+				5F38E4611C07319A004F1B17 /* UIColor+Category.m in Sources */,
+				5F38E41D1C07319A004F1B17 /* GPUImageFourInputFilter.m in Sources */,
+				5F38E43D1C07319A004F1B17 /* NDGroupCondition.m in Sources */,
+				5F38E4561C07319A004F1B17 /* AsyncSocket.m in Sources */,
+				5F38E4231C07319A004F1B17 /* NDFuguFilter.m in Sources */,
+				5F38E44B1C07319A004F1B17 /* FMDatabaseQueue+Category.m in Sources */,
+				5F38E42B1C07319A004F1B17 /* NDTongseFilter.m in Sources */,
+				5F38E4641C07319A004F1B17 /* UIColor+Random.m in Sources */,
+				5F38E4591C07319A004F1B17 /* NDTDSocketRequestData.m in Sources */,
+				5F38E4411C07319A004F1B17 /* NDStringQueryCondition.m in Sources */,
+				5F38E4531C07319A004F1B17 /* NDTDHTTPCallbackData.m in Sources */,
+				5F38E44A1C07319A004F1B17 /* FMDatabase+Category.m in Sources */,
+				5F38E45B1C07319A004F1B17 /* NDTDNetworkDataCache.m in Sources */,
+				5F38E43F1C07319A004F1B17 /* NDOrderCondition.m in Sources */,
+				5F38E4711C07319A004F1B17 /* NSData+Category.m in Sources */,
+				1896B3321C15361E00F7E978 /* UmengStatistical.m in Sources */,
+				5F38E41A1C07319A004F1B17 /* ALYUploadPic.m in Sources */,
+				31AE5D041B4E46F0009CFAB0 /* NDSDK.m in Sources */,
+				5F38E4541C07319A004F1B17 /* NDTDHTTPRequest.m in Sources */,
+				5F38E4471C07319A004F1B17 /* NDTableManageModel.m in Sources */,
+				5F38E4691C07319A004F1B17 /* wav.mm in Sources */,
+				5F38E41E1C07319A004F1B17 /* GPUImageSixInputFilter.m in Sources */,
+				5F38E4241C07319A004F1B17 /* NDGaoliangFilter.m in Sources */,
+				5F38E42A1C07319A004F1B17 /* NDRouheFilter.m in Sources */,
+				5F38E4491C07319A004F1B17 /* UserService.m in Sources */,
+				5F38E4521C07319A004F1B17 /* AFJSONResponseSerializer+Categary.m in Sources */,
+				5F38E46E1C07319A004F1B17 /* NDJson.m in Sources */,
+				5F38E44E1C07319A004F1B17 /* NDDataFormat.m in Sources */,
+				5F38E4211C07319A004F1B17 /* NDDuibiFilter.m in Sources */,
+				5F38E4651C07319A004F1B17 /* UMAccountInfo.m in Sources */,
+				5F38E4221C07319A004F1B17 /* NDFeicuilvFilter.m in Sources */,
+				5F38E4461C07319A004F1B17 /* NDDataBaseModel.m in Sources */,
+				5F38E43E1C07319A004F1B17 /* NDLimitCondition.m in Sources */,
+				5F38E45E1C07319A004F1B17 /* NDAsset.m in Sources */,
+				5F38E4271C07319A004F1B17 /* NDLengSeFilter.m in Sources */,
+				5F38E4671C07319A004F1B17 /* UMShareData.m in Sources */,
+				5F38E45D1C07319A004F1B17 /* NDTDFileUtility.m in Sources */,
+				5F38E42C1C07319A004F1B17 /* NDXiandaiFilter.m in Sources */,
+				5F38E4601C07319A004F1B17 /* NDAssetsLibraryRequest.m in Sources */,
+				5F38E4621C07319A004F1B17 /* UIColor+Gradient.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31AE5D051B4E46F0009CFAB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		31AE5D0C1B4E46F0009CFAB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31AE5CFD1B4E46F0009CFAB0 /* NDSDK */;
+			targetProxy = 31AE5D0B1B4E46F0009CFAB0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		31AE5D0F1B4E46F0009CFAB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 189F12961BB3D686009E6A0B /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NDSDK/NDSDK-PrefixHeader.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"-DSQLITE_HAS_CODEC",
+					"-DSQLITE_TEMP_STORE=2",
+					"-DSQLITE_THREADSAFE",
+					"-DSQLCIPHER_CRYPTO_CC",
+				);
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		31AE5D101B4E46F0009CFAB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 189F12971BB3D686009E6A0B /* Pods.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NDSDK/NDSDK-PrefixHeader.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"-DSQLITE_HAS_CODEC",
+					"-DSQLITE_TEMP_STORE=2",
+					"-DSQLITE_THREADSAFE",
+					"-DSQLCIPHER_CRYPTO_CC",
+				);
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		31AE5D121B4E46F0009CFAB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/CRToast\"",
+					"\"${PODS_ROOT}/Headers/Public/Cordova\"",
+					"\"${PODS_ROOT}/Headers/Public/DXPopover\"",
+					"\"${PODS_ROOT}/Headers/Public/FMDB\"",
+					"\"${PODS_ROOT}/Headers/Public/GPUImage\"",
+					"\"${PODS_ROOT}/Headers/Public/JDStatusBarNotification\"",
+					"\"${PODS_ROOT}/Headers/Public/LBBlurredImage\"",
+					"\"${PODS_ROOT}/Headers/Public/LLARingSpinnerView\"",
+					"\"${PODS_ROOT}/Headers/Public/MBProgressHUD\"",
+					"\"${PODS_ROOT}/Headers/Public/MobShareSDK\"",
+					"\"${PODS_ROOT}/Headers/Public/MobShareSDK/AGCommon\"",
+					"\"${PODS_ROOT}/Headers/Public/MobShareSDK/MOBFoundation\"",
+					"\"${PODS_ROOT}/Headers/Public/MobShareSDK/QQConnection\"",
+					"\"${PODS_ROOT}/Headers/Public/MobShareSDK/QZoneConnection\"",
+					"\"${PODS_ROOT}/Headers/Public/MobShareSDK/ShareSDK\"",
+					"\"${PODS_ROOT}/Headers/Public/MobShareSDK/ShareSDKCoreService\"",
+					"\"${PODS_ROOT}/Headers/Public/MobShareSDK/SinaWeiboConnection\"",
+					"\"${PODS_ROOT}/Headers/Public/MobShareSDK/TencentOpenAPI\"",
+					"\"${PODS_ROOT}/Headers/Public/MobShareSDK/WeChatConnection\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"\"${PODS_ROOT}/Headers/Public/ZBarSDK\"",
+					"\"${PODS_ROOT}/Headers/Public/pop\"",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/NDSDK/友盟/UMSocial_Sdk_Extra_Frameworks/Sina",
+					"$(PROJECT_DIR)/NDSDK/友盟/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
+					"$(PROJECT_DIR)/NDSDK/友盟/UMSocial_Sdk_Extra_Frameworks/UMSocial_ScreenShot_Sdk",
+					"$(PROJECT_DIR)/NDSDK/友盟/UMSocial_Sdk_Extra_Frameworks/UMSocial_Shake_Sdk",
+					"$(PROJECT_DIR)/NDSDK/友盟/UMSocial_Sdk_Extra_Frameworks/Wechat",
+					"$(PROJECT_DIR)/NDSDK/语音转换/opencore-amrnb",
+					"$(PROJECT_DIR)/NDSDK/语音转换/opencore-amrwb",
+					"$(PROJECT_DIR)/NDSDK/极光推送",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		31AE5D131B4E46F0009CFAB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/CRToast\"",
+					"\"${PODS_ROOT}/Headers/Public/Cordova\"",
+					"\"${PODS_ROOT}/Headers/Public/DXPopover\"",
+					"\"${PODS_ROOT}/Headers/Public/FMDB\"",
+					"\"${PODS_ROOT}/Headers/Public/GPUImage\"",
+					"\"${PODS_ROOT}/Headers/Public/JDStatusBarNotification\"",
+					"\"${PODS_ROOT}/Headers/Public/LBBlurredImage\"",
+					"\"${PODS_ROOT}/Headers/Public/LLARingSpinnerView\"",
+					"\"${PODS_ROOT}/Headers/Public/MBProgressHUD\"",
+					"\"${PODS_ROOT}/Headers/Public/MobShareSDK\"",
+					"\"${PODS_ROOT}/Headers/Public/MobShareSDK/AGCommon\"",
+					"\"${PODS_ROOT}/Headers/Public/MobShareSDK/MOBFoundation\"",
+					"\"${PODS_ROOT}/Headers/Public/MobShareSDK/QQConnection\"",
+					"\"${PODS_ROOT}/Headers/Public/MobShareSDK/QZoneConnection\"",
+					"\"${PODS_ROOT}/Headers/Public/MobShareSDK/ShareSDK\"",
+					"\"${PODS_ROOT}/Headers/Public/MobShareSDK/ShareSDKCoreService\"",
+					"\"${PODS_ROOT}/Headers/Public/MobShareSDK/SinaWeiboConnection\"",
+					"\"${PODS_ROOT}/Headers/Public/MobShareSDK/TencentOpenAPI\"",
+					"\"${PODS_ROOT}/Headers/Public/MobShareSDK/WeChatConnection\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"\"${PODS_ROOT}/Headers/Public/ZBarSDK\"",
+					"\"${PODS_ROOT}/Headers/Public/pop\"",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/NDSDK/友盟/UMSocial_Sdk_Extra_Frameworks/Sina",
+					"$(PROJECT_DIR)/NDSDK/友盟/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
+					"$(PROJECT_DIR)/NDSDK/友盟/UMSocial_Sdk_Extra_Frameworks/UMSocial_ScreenShot_Sdk",
+					"$(PROJECT_DIR)/NDSDK/友盟/UMSocial_Sdk_Extra_Frameworks/UMSocial_Shake_Sdk",
+					"$(PROJECT_DIR)/NDSDK/友盟/UMSocial_Sdk_Extra_Frameworks/Wechat",
+					"$(PROJECT_DIR)/NDSDK/语音转换/opencore-amrnb",
+					"$(PROJECT_DIR)/NDSDK/语音转换/opencore-amrwb",
+					"$(PROJECT_DIR)/NDSDK/极光推送",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		31AE5D151B4E46F0009CFAB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NDSDK/友盟/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
+				);
+				INFOPLIST_FILE = NDSDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NDSDK/友盟/UMSocial_Sdk_Extra_Frameworks/Sina",
+					"$(PROJECT_DIR)/NDSDK/友盟/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
+					"$(PROJECT_DIR)/NDSDK/友盟/UMSocial_Sdk_Extra_Frameworks/UMSocial_ScreenShot_Sdk",
+					"$(PROJECT_DIR)/NDSDK/友盟/UMSocial_Sdk_Extra_Frameworks/UMSocial_Shake_Sdk",
+					"$(PROJECT_DIR)/NDSDK/友盟/UMSocial_Sdk_Extra_Frameworks/Wechat",
+					"$(PROJECT_DIR)/NDSDK/极光推送",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nd.NDSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		31AE5D161B4E46F0009CFAB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NDSDK/友盟/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
+				);
+				INFOPLIST_FILE = NDSDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NDSDK/友盟/UMSocial_Sdk_Extra_Frameworks/Sina",
+					"$(PROJECT_DIR)/NDSDK/友盟/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
+					"$(PROJECT_DIR)/NDSDK/友盟/UMSocial_Sdk_Extra_Frameworks/UMSocial_ScreenShot_Sdk",
+					"$(PROJECT_DIR)/NDSDK/友盟/UMSocial_Sdk_Extra_Frameworks/UMSocial_Shake_Sdk",
+					"$(PROJECT_DIR)/NDSDK/友盟/UMSocial_Sdk_Extra_Frameworks/Wechat",
+					"$(PROJECT_DIR)/NDSDK/极光推送",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nd.NDSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31AE5CF91B4E46F0009CFAB0 /* Build configuration list for PBXProject "NDSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31AE5D0F1B4E46F0009CFAB0 /* Debug */,
+				31AE5D101B4E46F0009CFAB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31AE5D111B4E46F0009CFAB0 /* Build configuration list for PBXNativeTarget "NDSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31AE5D121B4E46F0009CFAB0 /* Debug */,
+				31AE5D131B4E46F0009CFAB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31AE5D141B4E46F0009CFAB0 /* Build configuration list for PBXNativeTarget "NDSDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31AE5D151B4E46F0009CFAB0 /* Debug */,
+				31AE5D161B4E46F0009CFAB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 31AE5CF61B4E46F0009CFAB0 /* Project object */;
+}

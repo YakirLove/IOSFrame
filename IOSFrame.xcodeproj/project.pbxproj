@@ -15,6 +15,9 @@
 		34A753361DD16F6D005D776B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34A753341DD16F6D005D776B /* LaunchScreen.storyboard */; };
 		34A753411DD16F6E005D776B /* IOSFrameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A753401DD16F6E005D776B /* IOSFrameTests.m */; };
 		34A7534C1DD16F6E005D776B /* IOSFrameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A7534B1DD16F6E005D776B /* IOSFrameUITests.m */; };
+		34A755071DD1DB1E005D776B /* libNDSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 34A755051DD1DB1E005D776B /* libNDSDK.a */; };
+		34A755081DD1DB1E005D776B /* libNDUIToolKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 34A755061DD1DB1E005D776B /* libNDUIToolKit.a */; };
+		DD53026106BA0EF64EAB0439 /* libPods-IOSFrame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2E7FAC29A976F1414068DC1 /* libPods-IOSFrame.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,11 @@
 		34A753471DD16F6E005D776B /* IOSFrameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOSFrameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		34A7534B1DD16F6E005D776B /* IOSFrameUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOSFrameUITests.m; sourceTree = "<group>"; };
 		34A7534D1DD16F6E005D776B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34A755051DD1DB1E005D776B /* libNDSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libNDSDK.a; path = "NDSDK/build/Debug-iphoneos/libNDSDK.a"; sourceTree = "<group>"; };
+		34A755061DD1DB1E005D776B /* libNDUIToolKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libNDUIToolKit.a; path = "NDUIToolKit/build/Debug-iphoneos/libNDUIToolKit.a"; sourceTree = "<group>"; };
+		5538174508930C1DB8202640 /* Pods-IOSFrame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOSFrame.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IOSFrame/Pods-IOSFrame.debug.xcconfig"; sourceTree = "<group>"; };
+		B32D9DA2DE98D85C69FAB2CD /* Pods-IOSFrame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOSFrame.release.xcconfig"; path = "Pods/Target Support Files/Pods-IOSFrame/Pods-IOSFrame.release.xcconfig"; sourceTree = "<group>"; };
+		D2E7FAC29A976F1414068DC1 /* libPods-IOSFrame.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IOSFrame.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34A755071DD1DB1E005D776B /* libNDSDK.a in Frameworks */,
+				34A755081DD1DB1E005D776B /* libNDUIToolKit.a in Frameworks */,
+				DD53026106BA0EF64EAB0439 /* libPods-IOSFrame.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +96,8 @@
 				34A7533F1DD16F6E005D776B /* IOSFrameTests */,
 				34A7534A1DD16F6E005D776B /* IOSFrameUITests */,
 				34A753241DD16F6D005D776B /* Products */,
+				8AC6B5031D5266E43560C1EC /* Pods */,
+				633E42320074169AEC4BE5B4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +153,25 @@
 			path = IOSFrameUITests;
 			sourceTree = "<group>";
 		};
+		633E42320074169AEC4BE5B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34A755051DD1DB1E005D776B /* libNDSDK.a */,
+				34A755061DD1DB1E005D776B /* libNDUIToolKit.a */,
+				D2E7FAC29A976F1414068DC1 /* libPods-IOSFrame.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8AC6B5031D5266E43560C1EC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5538174508930C1DB8202640 /* Pods-IOSFrame.debug.xcconfig */,
+				B32D9DA2DE98D85C69FAB2CD /* Pods-IOSFrame.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +179,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 34A753501DD16F6E005D776B /* Build configuration list for PBXNativeTarget "IOSFrame" */;
 			buildPhases = (
+				0C3482A6D956135AFEBB92D1 /* Check Pods Manifest.lock */,
 				34A7531F1DD16F6D005D776B /* Sources */,
 				34A753201DD16F6D005D776B /* Frameworks */,
 				34A753211DD16F6D005D776B /* Resources */,
+				0F7BB86A589F13D8F27D5F36 /* Embed Pods Frameworks */,
+				BA3AAE47949F5E0DABA5E5AD /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -270,6 +305,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C3482A6D956135AFEBB92D1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		0F7BB86A589F13D8F27D5F36 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IOSFrame/Pods-IOSFrame-frameworks.sh\"\n\"${SRCROOT}/ND-Resources.sh\"";
+			showEnvVarsInLog = 0;
+		};
+		BA3AAE47949F5E0DABA5E5AD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IOSFrame/Pods-IOSFrame-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		34A7531F1DD16F6D005D776B /* Sources */ = {
@@ -425,11 +508,177 @@
 		};
 		34A753511DD16F6E005D776B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5538174508930C1DB8202640 /* Pods-IOSFrame.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3NV5TP9U7U;
+				HEADER_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/include/libxml2\"",
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/AliyunOSSiOS\"",
+					"\"${PODS_ROOT}/Headers/Public/BaiduMapKit\"",
+					"\"${PODS_ROOT}/Headers/Public/Base64nl\"",
+					"\"${PODS_ROOT}/Headers/Public/Bolts\"",
+					"\"${PODS_ROOT}/Headers/Public/Cordova\"",
+					"\"${PODS_ROOT}/Headers/Public/DACircularProgress\"",
+					"\"${PODS_ROOT}/Headers/Public/DTCoreText\"",
+					"\"${PODS_ROOT}/Headers/Public/DTFoundation\"",
+					"\"${PODS_ROOT}/Headers/Public/DXPopover\"",
+					"\"${PODS_ROOT}/Headers/Public/FDFullscreenPopGesture\"",
+					"\"${PODS_ROOT}/Headers/Public/FMDB\"",
+					"\"${PODS_ROOT}/Headers/Public/GPUImage\"",
+					"\"${PODS_ROOT}/Headers/Public/IDMPhotoBrowser\"",
+					"\"${PODS_ROOT}/Headers/Public/LBBlurredImage\"",
+					"\"${PODS_ROOT}/Headers/Public/LLARingSpinnerView\"",
+					"\"${PODS_ROOT}/Headers/Public/MBProgressHUD\"",
+					"\"${PODS_ROOT}/Headers/Public/MJRefresh\"",
+					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
+					"\"${PODS_ROOT}/Headers/Public/RTLabel\"",
+					"\"${PODS_ROOT}/Headers/Public/ReactiveCocoa\"",
+					"\"${PODS_ROOT}/Headers/Public/SDAutoLayout\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"\"${PODS_ROOT}/Headers/Public/UMengAnalytics-NO-IDFA\"",
+					"\"${PODS_ROOT}/Headers/Public/UMengSocialCOM\"",
+					"\"${PODS_ROOT}/Headers/Public/pop\"",
+					"\"$(PROJECT_DIR)/NDUIToolKit/**\"",
+					"\"$(PROJECT_DIR)/NDSDK/**\"",
+				);
 				INFOPLIST_FILE = IOSFrame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IOSFrame/SDK/语音转换/opencore-amrnb",
+					"$(PROJECT_DIR)/IOSFrame/SDK/语音转换/opencore-amrwb",
+					"$(PROJECT_DIR)/NDSDK/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/NDUIToolKit/build/Debug-iphoneos",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"AFNetworking\"",
+					"-l\"APOpenSdk\"",
+					"-l\"AliyunOSSiOS\"",
+					"-l\"Base64nl\"",
+					"-l\"Bolts\"",
+					"-l\"Cordova\"",
+					"-l\"DACircularProgress\"",
+					"-l\"DTCoreText\"",
+					"-l\"DTFoundation\"",
+					"-l\"DXPopover\"",
+					"-l\"FDFullscreenPopGesture\"",
+					"-l\"FMDB\"",
+					"-l\"GPUImage\"",
+					"-l\"IDMPhotoBrowser\"",
+					"-l\"LBBlurredImage\"",
+					"-l\"LLARingSpinnerView\"",
+					"-l\"LWApiSDK\"",
+					"-l\"MBProgressHUD\"",
+					"-l\"MJRefresh\"",
+					"-l\"Masonry\"",
+					"-l\"RTLabel\"",
+					"-l\"ReactiveCocoa\"",
+					"-l\"SDAutoLayout\"",
+					"-l\"SDWebImage\"",
+					"-l\"SocialAlipayShare\"",
+					"-l\"SocialFacebook\"",
+					"-l\"SocialInstagram\"",
+					"-l\"SocialLaiWang\"",
+					"-l\"SocialLine\"",
+					"-l\"SocialQQ\"",
+					"-l\"SocialSinaSSO\"",
+					"-l\"SocialTumblr\"",
+					"-l\"SocialTwitter\"",
+					"-l\"SocialWechat\"",
+					"-l\"SocialWhatsapp\"",
+					"-l\"UMSocial_Sdk_5.2.1\"",
+					"-l\"UMSocial_Sdk_Comment_5.2.1\"",
+					"-l\"WeChatSDK\"",
+					"-l\"WeiboSDK\"",
+					"-l\"c++\"",
+					"-l\"iconv\"",
+					"-l\"pop\"",
+					"-l\"sqlite3\"",
+					"-l\"sqlite3.0\"",
+					"-l\"stdc++\"",
+					"-l\"stdc++.6.0.9\"",
+					"-l\"xml2\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"Accounts\"",
+					"-framework",
+					"\"AssetsLibrary\"",
+					"-framework",
+					"\"BaiduMapAPI_Base\"",
+					"-framework",
+					"\"BaiduMapAPI_Cloud\"",
+					"-framework",
+					"\"BaiduMapAPI_Location\"",
+					"-framework",
+					"\"BaiduMapAPI_Map\"",
+					"-framework",
+					"\"BaiduMapAPI_Radar\"",
+					"-framework",
+					"\"BaiduMapAPI_Search\"",
+					"-framework",
+					"\"BaiduMapAPI_Utils\"",
+					"-framework",
+					"\"CoreData\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreMedia\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"FBSDKCoreKit\"",
+					"-framework",
+					"\"FBSDKLoginKit\"",
+					"-framework",
+					"\"FBSDKShareKit\"",
+					"-framework",
+					"\"Fabric\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MediaPlayer\"",
+					"-framework",
+					"\"MessageUI\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"OpenGLES\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"Social\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"TencentOpenAPI\"",
+					"-framework",
+					"\"TwitterCore\"",
+					"-framework",
+					"\"TwitterKit\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"UMMobClick\"",
+					"-licucore",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = ss.IOSFrame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -437,11 +686,177 @@
 		};
 		34A753521DD16F6E005D776B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B32D9DA2DE98D85C69FAB2CD /* Pods-IOSFrame.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3NV5TP9U7U;
+				HEADER_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/include/libxml2\"",
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/AliyunOSSiOS\"",
+					"\"${PODS_ROOT}/Headers/Public/BaiduMapKit\"",
+					"\"${PODS_ROOT}/Headers/Public/Base64nl\"",
+					"\"${PODS_ROOT}/Headers/Public/Bolts\"",
+					"\"${PODS_ROOT}/Headers/Public/Cordova\"",
+					"\"${PODS_ROOT}/Headers/Public/DACircularProgress\"",
+					"\"${PODS_ROOT}/Headers/Public/DTCoreText\"",
+					"\"${PODS_ROOT}/Headers/Public/DTFoundation\"",
+					"\"${PODS_ROOT}/Headers/Public/DXPopover\"",
+					"\"${PODS_ROOT}/Headers/Public/FDFullscreenPopGesture\"",
+					"\"${PODS_ROOT}/Headers/Public/FMDB\"",
+					"\"${PODS_ROOT}/Headers/Public/GPUImage\"",
+					"\"${PODS_ROOT}/Headers/Public/IDMPhotoBrowser\"",
+					"\"${PODS_ROOT}/Headers/Public/LBBlurredImage\"",
+					"\"${PODS_ROOT}/Headers/Public/LLARingSpinnerView\"",
+					"\"${PODS_ROOT}/Headers/Public/MBProgressHUD\"",
+					"\"${PODS_ROOT}/Headers/Public/MJRefresh\"",
+					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
+					"\"${PODS_ROOT}/Headers/Public/RTLabel\"",
+					"\"${PODS_ROOT}/Headers/Public/ReactiveCocoa\"",
+					"\"${PODS_ROOT}/Headers/Public/SDAutoLayout\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"\"${PODS_ROOT}/Headers/Public/UMengAnalytics-NO-IDFA\"",
+					"\"${PODS_ROOT}/Headers/Public/UMengSocialCOM\"",
+					"\"${PODS_ROOT}/Headers/Public/pop\"",
+					"\"$(PROJECT_DIR)/NDUIToolKit/**\"",
+					"\"$(PROJECT_DIR)/NDSDK/**\"",
+				);
 				INFOPLIST_FILE = IOSFrame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IOSFrame/SDK/语音转换/opencore-amrnb",
+					"$(PROJECT_DIR)/IOSFrame/SDK/语音转换/opencore-amrwb",
+					"$(PROJECT_DIR)/NDSDK/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/NDUIToolKit/build/Debug-iphoneos",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"AFNetworking\"",
+					"-l\"APOpenSdk\"",
+					"-l\"AliyunOSSiOS\"",
+					"-l\"Base64nl\"",
+					"-l\"Bolts\"",
+					"-l\"Cordova\"",
+					"-l\"DACircularProgress\"",
+					"-l\"DTCoreText\"",
+					"-l\"DTFoundation\"",
+					"-l\"DXPopover\"",
+					"-l\"FDFullscreenPopGesture\"",
+					"-l\"FMDB\"",
+					"-l\"GPUImage\"",
+					"-l\"IDMPhotoBrowser\"",
+					"-l\"LBBlurredImage\"",
+					"-l\"LLARingSpinnerView\"",
+					"-l\"LWApiSDK\"",
+					"-l\"MBProgressHUD\"",
+					"-l\"MJRefresh\"",
+					"-l\"Masonry\"",
+					"-l\"RTLabel\"",
+					"-l\"ReactiveCocoa\"",
+					"-l\"SDAutoLayout\"",
+					"-l\"SDWebImage\"",
+					"-l\"SocialAlipayShare\"",
+					"-l\"SocialFacebook\"",
+					"-l\"SocialInstagram\"",
+					"-l\"SocialLaiWang\"",
+					"-l\"SocialLine\"",
+					"-l\"SocialQQ\"",
+					"-l\"SocialSinaSSO\"",
+					"-l\"SocialTumblr\"",
+					"-l\"SocialTwitter\"",
+					"-l\"SocialWechat\"",
+					"-l\"SocialWhatsapp\"",
+					"-l\"UMSocial_Sdk_5.2.1\"",
+					"-l\"UMSocial_Sdk_Comment_5.2.1\"",
+					"-l\"WeChatSDK\"",
+					"-l\"WeiboSDK\"",
+					"-l\"c++\"",
+					"-l\"iconv\"",
+					"-l\"pop\"",
+					"-l\"sqlite3\"",
+					"-l\"sqlite3.0\"",
+					"-l\"stdc++\"",
+					"-l\"stdc++.6.0.9\"",
+					"-l\"xml2\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"Accounts\"",
+					"-framework",
+					"\"AssetsLibrary\"",
+					"-framework",
+					"\"BaiduMapAPI_Base\"",
+					"-framework",
+					"\"BaiduMapAPI_Cloud\"",
+					"-framework",
+					"\"BaiduMapAPI_Location\"",
+					"-framework",
+					"\"BaiduMapAPI_Map\"",
+					"-framework",
+					"\"BaiduMapAPI_Radar\"",
+					"-framework",
+					"\"BaiduMapAPI_Search\"",
+					"-framework",
+					"\"BaiduMapAPI_Utils\"",
+					"-framework",
+					"\"CoreData\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreMedia\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"FBSDKCoreKit\"",
+					"-framework",
+					"\"FBSDKLoginKit\"",
+					"-framework",
+					"\"FBSDKShareKit\"",
+					"-framework",
+					"\"Fabric\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MediaPlayer\"",
+					"-framework",
+					"\"MessageUI\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"OpenGLES\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"Social\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"TencentOpenAPI\"",
+					"-framework",
+					"\"TwitterCore\"",
+					"-framework",
+					"\"TwitterKit\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"UMMobClick\"",
+					"-licucore",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = ss.IOSFrame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -516,6 +931,7 @@
 				34A753521DD16F6E005D776B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		34A753531DD16F6E005D776B /* Build configuration list for PBXNativeTarget "IOSFrameTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +940,7 @@
 				34A753551DD16F6E005D776B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		34A753561DD16F6E005D776B /* Build configuration list for PBXNativeTarget "IOSFrameUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +949,7 @@
 				34A753581DD16F6E005D776B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

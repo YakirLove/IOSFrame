@@ -1,0 +1,130 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - AliyunOSSiOS (2.0.2):
+    - Bolts
+  - BaiduMapKit (3.0.0)
+  - Base64nl (1.2)
+  - Bolts (1.8.4):
+    - Bolts/AppLinks (= 1.8.4)
+    - Bolts/Tasks (= 1.8.4)
+  - Bolts/AppLinks (1.8.4):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.8.4)
+  - Cordova (3.8.0)
+  - DACircularProgress (2.3.1)
+  - DTCoreText (1.6.19):
+    - DTCoreText/Core (= 1.6.19)
+    - DTFoundation/Core (~> 1.7.5)
+    - DTFoundation/DTAnimatedGIF (~> 1.7.5)
+    - DTFoundation/DTHTMLParser (~> 1.7.5)
+    - DTFoundation/UIKit (~> 1.7.5)
+  - DTCoreText/Core (1.6.19):
+    - DTFoundation/Core (~> 1.7.5)
+    - DTFoundation/DTAnimatedGIF (~> 1.7.5)
+    - DTFoundation/DTHTMLParser (~> 1.7.5)
+    - DTFoundation/UIKit (~> 1.7.5)
+  - DTFoundation/Core (1.7.11)
+  - DTFoundation/DTAnimatedGIF (1.7.11)
+  - DTFoundation/DTHTMLParser (1.7.11):
+    - DTFoundation/Core
+  - DTFoundation/UIKit (1.7.11):
+    - DTFoundation/Core
+  - DXPopover (0.1.1)
+  - FDFullscreenPopGesture (1.1)
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - GPUImage (0.1.7)
+  - IDMPhotoBrowser (1.9.1):
+    - DACircularProgress
+    - pop
+    - SDWebImage
+  - LBBlurredImage (0.2.2)
+  - LLARingSpinnerView (0.1.4)
+  - Masonry (0.6.4)
+  - MBProgressHUD (0.9.2)
+  - MJRefresh (3.0.8)
+  - pop (1.0.9)
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
+  - RTLabel (1.0.1)
+  - SDAutoLayout (1.53)
+  - SDWebImage (3.7.6):
+    - SDWebImage/Core (= 3.7.6)
+  - SDWebImage/Core (3.7.6)
+  - UMengAnalytics-NO-IDFA (4.1.3)
+  - UMengSocialCOM (5.2.1)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.0)
+  - AliyunOSSiOS (~> 2.0.2)
+  - BaiduMapKit (~> 3.0.0)
+  - Base64nl (~> 1.2)
+  - Cordova (~> 3.8.0)
+  - DTCoreText (~> 1.6.16)
+  - DXPopover (~> 0.1.1)
+  - FDFullscreenPopGesture (~> 1.1)
+  - FMDB (~> 2.5)
+  - GPUImage (~> 0.1.7)
+  - IDMPhotoBrowser (~> 1.7)
+  - LBBlurredImage (~> 0.2.2)
+  - LLARingSpinnerView (~> 0.1.3)
+  - Masonry (~> 0.6.2)
+  - MBProgressHUD (~> 0.9.1)
+  - MJRefresh (~> 3.0.6)
+  - pop (~> 1.0.7)
+  - ReactiveCocoa (~> 2.5)
+  - RTLabel (~> 1.0.1)
+  - SDAutoLayout (~> 1.50)
+  - SDWebImage (~> 3.7.2)
+  - UMengAnalytics-NO-IDFA (~> 4.1.1)
+  - UMengSocialCOM (~> 5.2.1)
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  AliyunOSSiOS: c28bc6901671e8dcf4ed76ed6e54ab4949e05d5f
+  BaiduMapKit: de2a726d5296d6b2dc0e974b683af73153608dcd
+  Base64nl: a497bdcd1c01ea793d36b399016195a8713c0e95
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  Cordova: 41554048698d50e70387ca2ab5bbdd1286fd0e39
+  DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
+  DTCoreText: 184cc2f460c2177108e8700dfb0eb1b1cb72c99d
+  DTFoundation: 0ef29c70a9814e15518694862bd739347abe2a50
+  DXPopover: 13e6bbd1a0da4e62b2190de51f43a94850769e0f
+  FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
+  IDMPhotoBrowser: 35e8ba559a88f2a8be4ae04d7fd424665344ba06
+  LBBlurredImage: 700634c17922bc2d22343118e7deb6a3ca12db43
+  LLARingSpinnerView: 334c37fd53f25c86651cbb4c57f70b12d571d7a5
+  Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  MJRefresh: fafde8f18f4afd66b434331a9beb67a6c0264056
+  pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  RTLabel: 6005d07fef57b101097c4271f804daae3110cbca
+  SDAutoLayout: ea6e2ae9fbb438aa2feb0c4363dba9297e98638a
+  SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
+  UMengAnalytics-NO-IDFA: b26a7003458204d4549b6bd132c2f07dd5942b86
+  UMengSocialCOM: 074c135ce349aa4c8848d3fb8458757bcb6ffb67
+
+COCOAPODS: 0.39.0
